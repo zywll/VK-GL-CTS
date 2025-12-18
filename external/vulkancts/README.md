@@ -312,6 +312,8 @@ Vulkan compute-only implementations must be tested using option
 
 	--deqp-compute-only=enable
 
+When this option is enabled, all non-compute tests will report as unsupported.
+
 There are several additional options used only in conjunction with Vulkan SC tests
 ( for Vulkan SC CTS tests deqp-vksc application should be used ).
 
